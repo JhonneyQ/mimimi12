@@ -1,0 +1,19 @@
+header{
+    .head{
+        @include theme(space-between, center);
+        padding: 2rem 0;
+        ul{
+            @include theme(space-between, center);
+            gap: 2rem;
+            li{
+                a{
+                    color: $grey-color;   
+                }
+            }
+        }
+        .icons{
+            
+        }
+        
+    }
+}
